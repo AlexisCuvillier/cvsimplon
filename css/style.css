@@ -1,0 +1,82 @@
+
+
+.fondV {
+    position: fixed; right: 0; bottom: 0;
+    width: 100%; height: auto; z-index: -100;
+    background-repeat :repeat;
+    background-size: cover;
+  }
+
+h2{
+    color:#048B9A;
+
+}
+div {
+    color:#048B9A;
+} 
+
+.final {
+    text-align: center;
+}
+
+#intro{
+    border:solid #048B9A;
+    border-radius: 30px
+
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+#Btnpopup { background-color: #048B9A ;
+    margin: 5em;
+    padding: 2em;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#Btnpopup:hover{
+background-color: #048B9A;
+}
+
+#overlay {
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 ,0.4);
+    width: 100%;
+    height: 100%;
+    z-index:1;
+    display:none;
+    overflow-y: scroll;
+}
+
+#popup{
+margin: 20% auto;
+width : 70%;
+background-color: rgb(243, 243, 243);
+padding: 3em;
+box-shadow: 20px 35px 25px rgba(0, 0, 0, 0.3);
+border-radius: 50px;
+}
+
+#colorpopup {
+    
+    color: #048B9A;
+}
+
+
+#btnClose {
+float: right;
+font-size:16pt;
+cursor: pointer;
+color: rgb(26, 26, 26);
+}
+
+
+
